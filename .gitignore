@@ -1,0 +1,57 @@
+# =========================
+# IntelliJ IDEA / JetBrains
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# =========================
+# Java – kompilerade filer
+# =========================
+*.class
+*.log
+
+# =========================
+# Byggmappar
+# =========================
+target/
+build/
+bin/
+
+# =========================
+# Kotlin
+# =========================
+.kotlin/
+
+# =========================
+# Eclipse
+# =========================
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Operativsystem
+# =========================
+.DS_Store
+Thumbs.db
