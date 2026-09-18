@@ -27,15 +27,15 @@ public class Song {
         }
     }
 
-    public void printInfo() {
-        System.out.println(title + " - " + artist
-                + " (" + durationSeconds + " sekunder)");
-    }
-
     public boolean isLongSong() {
         return durationSeconds >= 240;
     }
 
-
+    @Override
+    public String toString() {
+        return title + " - " + artist
+                + " (" + durationSeconds + " sekunder)";
+    }
 }
+
 
